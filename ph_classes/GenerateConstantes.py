@@ -1,4 +1,4 @@
-from CalculConstant import CalculConstant
+from ph_classes.CalculConstant import CalculConstant
 
 class GenerateConstantes:
 

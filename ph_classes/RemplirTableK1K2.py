@@ -1,6 +1,6 @@
-from GenerateConstantes import GenerateConstantes
-from CalculConstant import CalculConstant
-from calcul_K1K2 import calcul_K1K2
+from ph_classes.GenerateConstantes import GenerateConstantes
+from ph_classes.CalculConstant import CalculConstant
+from ph_classes.calcul_K1K2 import calcul_K1K2
 
 class RemplirTableK1K2:
     Ge = GenerateConstantes()

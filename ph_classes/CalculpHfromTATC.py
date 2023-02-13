@@ -1,5 +1,5 @@
 import math as Math
-from RemplirTableK1K2 import RemplirTableK1K2
+from ph_classes.RemplirTableK1K2 import RemplirTableK1K2
 
 def CalculpHfromTATC(TC, TA, Salinity, WhichTB, TempC, WhoseKSO4, pres, TP, TSi, CM, ph_scale):
     Tab = RemplirTableK1K2()

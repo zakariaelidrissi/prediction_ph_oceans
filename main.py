@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from keras.models import load_model
 import pickle
-from CalculpHfromTATC import CalculpHfromTATC
+from ph_classes.CalculpHfromTATC import CalculpHfromTATC
 
 # with 1 variable  : ['Longitude', 'Latitude', 'Depth', 'TCO2']
 # with 2 variables : ['Longitude', 'Latitude', 'Depth', 'TCO2', 'Temperature']

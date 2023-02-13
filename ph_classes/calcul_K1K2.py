@@ -1,4 +1,4 @@
-from CalculConstant import CalculConstant
+from ph_classes.CalculConstant import CalculConstant
 import math as Math
 
 class calcul_K1K2:
