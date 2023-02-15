@@ -207,7 +207,7 @@ else :
                 model = load_model(PATH_MODEL_ANN_4)                
                 data = data.reshape((1, data.shape[0]))
 
-    elif var_index == 4: # Longitude, Latitude, Depth, TCO2, Temperature, Phosphate, Pressure, Alkalinity,
+    elif var_index == 4: # Longitude, Latitude, Depth, TCO2, Temperature, Phosphate, Pressure, Alkalinity
         is_valid = False        
         with col1:
             lat = st.number_input('Insert The Latitude', format="%.4f")
